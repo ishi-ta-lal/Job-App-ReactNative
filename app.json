@@ -5,9 +5,21 @@
       "expo-router"
     ],
     "name": "jobs",
-    "slug": "jobs",
+    "slug": "job-app",
     "android": {
       "package": "com.anonymous.jobs"
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c99be5ab-28d2-4cc5-b7c1-d4b683be52a0"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.anonymous.jobs"
+    },
+    "owner": "ishi-talal"
   }
 }
